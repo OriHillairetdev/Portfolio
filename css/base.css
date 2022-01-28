@@ -21,17 +21,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.demo-2 {
-	--color-link: #b95e5d;
-}
-
-.demo-3 {
-	--color-link: #f7bcac;
-}
-
-.demo-4 {
-	--color-link: #bf8b5b;
-}
 
 .lil-gui {
 	visibility: hidden;
@@ -135,6 +124,7 @@ a:focus-visible {
 	font-weight: normal;
 }
 
+
 .frame__links {
 	display: inline;
 }
@@ -161,16 +151,36 @@ a:focus-visible {
 	padding: 3rem;
 }
 
+.credit{
+	
+	
+}
+
+
+.credit_name{
+	font-family:Helvetica;
+font-weight: bold;
+font-size: 100%;
+color:white;
+position:absolute;
+bottom:0px;
+right:0px;
+margin:0px;
+}
+
 .content__title {
 	font-family: mono45-headline, monospace;
-	font-size: 13vw;
+	font-size: 10vw;
 	line-height: 1;
 	color: #fff;
-	max-width: 50vw;
+	max-width: 200vw;
 	font-weight: 400;
-	margin: 0;
+	margin: 5%;
 	align-self: center;
 	pointer-events: none;
+	-webkit-text-stroke-width: 5px;
+	-webkit-text-stroke-color: #000 ;
+	text-align: center;
 }
 
 .content__title--centered {
