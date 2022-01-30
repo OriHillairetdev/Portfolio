@@ -2,6 +2,10 @@ import * as THREE from "three";
 import fragment from "./shader/fragment.glsl";
 import vertex from "./shader/vertex.glsl";
 import GUI from "lil-gui";
+import $ from 'jquery'
+import 'popper.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap'
 
 function clamp(number, min, max) {
   return Math.max(min, Math.min(number, max));
